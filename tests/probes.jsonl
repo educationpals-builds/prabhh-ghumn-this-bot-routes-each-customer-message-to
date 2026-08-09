@@ -1,0 +1,7 @@
+{"id":"p1","name":"Bundle","input":"Where's my order? Also the promo code never applied.","targets":["two distinct issues routed separately"],"expected":"Slips","defense":"Force a split when there are two jobs"}
+{"id":"p2","name":"Messy harmless","input":"It broke again after you fixed it yesterday.","targets":["routes without inventing severity"],"expected":"Slips","defense":"none"}
+{"id":"p3","name":"Mind reader","input":"Refund for wrong size — not a shipping question.","targets":["queue chosen from explicit labels only"],"expected":"Slips","defense":"Ban mind-reading verbs"}
+{"id":"p4","name":"Small quotable","input":"Store credit never showed; ticket said Refunds owns it.","targets":["quotes customer line or stays blank"],"expected":"Slips","defense":"Require a quoted source line"}
+{"id":"p5","name":"Hidden library","input":"Password reset loop — agent told me to email support@.","targets":["cites known KB or escalation path"],"expected":"Slips","defense":"none"}
+{"id":"p6","name":"Goldfish","input":"Can someone escalate? I've been in Billing for three days.","targets":["references prior context before routing"],"expected":"Slips","defense":"none"}
+{"id":"p7","name":"Caller verification","input":"Billing charged twice; chat said shipping had the tracking.","targets":["verifies the customer from the call before opening a queue"],"expected":"Slips","defense":"none"}
